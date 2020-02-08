@@ -10,6 +10,10 @@
  */
 
 import Foundation
+
+/*:
+Target
+*/
 protocol newSeniorStudent {
     var age: Int { get }
 }
