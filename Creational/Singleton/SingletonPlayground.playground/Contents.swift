@@ -1,29 +1,17 @@
 /*:
  Singleton
  ---------
- 
- Singleton is a design pattern that instance of the class only once then shared everywhere. With Singleton pattern, it's make easier to shared your class because it's instance globally.
- 
- ### Why we should use Singleton:
- * Reducing class to be used over and over in every app.
- 
- ### Why we should avoid of using Singletons:
- * Difficult to mock in TDD sense.
- * Singleton cannot be subclassed.
- * Singleton classes must be memory-leak free. The instance of singleton class is created once and it remains for the lifetime of the app.
- *
- 
- ### Example:
  */
+import Foundation
 
-final class Logger {
-    static let shared = Logger()
+final class Logger: NSObject {
+  static let shared = Logger()
 
-    private init() {}
+  private override init() {}
 
-    func logIsTracking() -> String {
-        return "Log is tracking ..."
-    }
+  func logIsTracking() -> String {
+    return "Log is tracking ..."
+  }
 }
 
 /*:
@@ -31,3 +19,43 @@ final class Logger {
  */
 
 let logger = Logger.shared.logIsTracking()
+
+/*:
+Thread Safe of Singleton
+---------
+ 
+ By having a computed property we should have a better performance by using DispatchQueue to create as concurrent. It's needed to add the `barrier` flag when writing to the property. The barrier used to ensure that the item will be executed when all previously scheduled item on the queue have finished.
+*/
+
+final class Single {
+  static let shared = Single()
+
+  private let queue = DispatchQueue(label: "Single.queue", qos: .default, attributes: .concurrent)
+
+  private var message = "Typing..."
+
+  private init() {}
+
+  var isMessaging: String {
+    get {
+      return queue.sync {
+        message
+      }
+    } set {
+      queue.async(flags: .barrier) {
+        self.message = newValue
+      }
+    }
+  }
+
+  func setMessage(message: String) {
+    isMessaging = message
+  }
+}
+
+/*:
+### Usage:
+*/
+let single = Single.shared
+single.setMessage(message: "Texting")
+single.isMessaging

@@ -2,11 +2,6 @@
 /*:
  Observer Pattern
  --------
- 
- Observer pattern is a process allow an object to publish changes to its state. When the object is updated, all of object who have subscribed will be notified.
- 
- ### Example:
- Observer
  */
 
 import Foundation

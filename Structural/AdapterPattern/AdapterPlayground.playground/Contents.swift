@@ -1,12 +1,6 @@
 /*:
  Adapter Pattern
  --------
- 
- Adapter Pattern is used to provide a link between two otherwise incompatible types by wrapping the `adaptee` with a class supportes the interface required by the client.
- In short, Adapter pattern represent as a wrapper between an object and transformed become the interface of object.
- 
- 
- ### Example:
  */
 
 import Foundation
