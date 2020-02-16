@@ -53,7 +53,7 @@ class HumanB: Sender {
 }
 
 /*:
- Mediator
+ ### Mediator
  */
 
 class MessageMediator: Mediator {
@@ -73,7 +73,7 @@ class MessageMediator: Mediator {
 }
 
 /*:
- Usage:
+ ### Usage
  */
 
 let mediator = MessageMediator()

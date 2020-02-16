@@ -10,7 +10,7 @@ Design Pattern are divided into some fundamental groups as:
 These patterns are represent as mechanism of creating an objects. This pattern was created because of the problem in designing an object. With this pattern, they encapsulating knowledge which concrete classes are used and hide how instances of classes are created and combined.
 
 There are 5 well-known of creational pattern:
- - [Abstract Patten](https://github.com/wliam06/design-patterns/tree/master/Creational%20Pattern/AbstractPattern)
+ - [Abstract Pattern](https://github.com/wliam06/design-patterns/tree/master/Creational%20Pattern/AbstractPattern)
  - [Builder Pattern](https://github.com/wliam06/design-patterns/tree/master/Creational%20Pattern/BuilderPattern)
  - [Prototype Pattern](https://github.com/wliam06/design-patterns/tree/master/Creational%20Pattern/PrototypePattern)  
  - [Factory Pattern](https://github.com/wliam06/design-patterns/tree/master/Creational%20Pattern/FactoryPattern)
@@ -21,7 +21,7 @@ These patterns are represent as mechanism of communication between objects. With
 
 There are several type of behavioral patterns are:
  - [Mediator Pattern](https://github.com/wliam06/design-patterns/tree/master/Behavioral%20Pattern/MediatorPattern)
- - Memento Pattern
+ - [Memento Pattern](https://github.com/wliam06/design-patterns/tree/master/Behavioral%20Pattern/MementoPattern)
  - [Observer Pattern](https://github.com/wliam06/design-patterns/tree/master/Behavioral%20Pattern/ObserverPattern)
  - [Strategy Pattern](https://github.com/wliam06/design-patterns/tree/master/Behavioral%20Pattern/StrategyPattern)
 
@@ -32,7 +32,7 @@ These patterns are represent as mechanism of relationships between objects which
 There are several type of structural patterns are:
  - Composite Pattern
  - [Adapter Pattern](https://github.com/wliam06/design-patterns/tree/master/Structural%20Pattern/AdapterPattern)
- - Facade Pattern
+ - [Facade Pattern](https://github.com/wliam06/design-patterns/tree/master/Structural%20Pattern/FacadePattern)
  - Extensibility Pattern
  - [Decorator Pattern](https://github.com/wliam06/design-patterns/tree/master/Structural%20Pattern/DecoratorPattern)
  - Aggregate Pattern

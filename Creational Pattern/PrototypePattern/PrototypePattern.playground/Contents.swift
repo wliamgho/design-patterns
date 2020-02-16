@@ -28,7 +28,7 @@ class GameEvent: Game {
 }
 
 /*:
- Usage:
+ ### Usage:
  */
 
 let basketBallEvent = GameEvent(name: "BasketBall")

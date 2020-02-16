@@ -13,8 +13,7 @@ protocol BikeBluePrint {
 }
 
 /*:
- Concrete Builder
- --------
+ ### Concrete Builder
  */
 
 class Bike: BikeBluePrint {
@@ -32,8 +31,7 @@ class Bike: BikeBluePrint {
 }
 
 /*:
- Product of Concrete Builder
- --------
+ #### Product of Concrete Builder
  */
 
 class UnitedBikeBuilder: BikeBluePrint {
@@ -48,8 +46,7 @@ class UnitedBikeBuilder: BikeBluePrint {
 }
 
 /*:
- Usage:
- --------
+ ### Usage:
  */
 
 var builder = UnitedBikeBuilder()

@@ -14,7 +14,7 @@ protocol Memento {
 }
 
 /*:
- Caretaker:
+ ### Caretaker
  Contains informations from Originator
  --------
  */
@@ -44,7 +44,7 @@ class Receiver {
 }
 
 /*:
- Originator:
+ ### Originator
  Save and Restore message
  --------
  */
@@ -65,7 +65,7 @@ class Checkpoint: Memento {
 }
 
 /*:
- Usage:
+ ### Usage
  */
 
 let checkpoint = Checkpoint()
