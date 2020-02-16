@@ -11,7 +11,7 @@ These patterns are represent as mechanism of creating an objects. This pattern w
 
 There are 5 well-known of creational pattern:
  - [Abstract Patten](https://github.com/wliam06/design-patterns/tree/master/Creational%20Pattern/AbstractPattern)
- - Builder Pattern
+ - [Builder Pattern](https://github.com/wliam06/design-patterns/tree/master/Creational%20Pattern/BuilderPattern)
  - [Factory Pattern](https://github.com/wliam06/design-patterns/tree/master/Creational%20Pattern/FactoryPattern)
  - Prototype Pattern
  - [Singleton Pattern](https://github.com/wliam06/design-patterns/tree/master/Creational%20Pattern/SingletonPattern)
