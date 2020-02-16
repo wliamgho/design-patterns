@@ -12,15 +12,15 @@ These patterns are represent as mechanism of creating an objects. This pattern w
 There are 5 well-known of creational pattern:
  - [Abstract Patten](https://github.com/wliam06/design-patterns/tree/master/Creational%20Pattern/AbstractPattern)
  - [Builder Pattern](https://github.com/wliam06/design-patterns/tree/master/Creational%20Pattern/BuilderPattern)
+ - [Prototype Pattern](https://github.com/wliam06/design-patterns/tree/master/Creational%20Pattern/PrototypePattern)  
  - [Factory Pattern](https://github.com/wliam06/design-patterns/tree/master/Creational%20Pattern/FactoryPattern)
- - Prototype Pattern
  - [Singleton Pattern](https://github.com/wliam06/design-patterns/tree/master/Creational%20Pattern/SingletonPattern)
 
 ## Behavioral Pattern
 These patterns are represent as mechanism of communication between objects. With this pattern, increasing flexibility in carrying out of communcation.
 
 There are several type of behavioral patterns are:
- - Mediator Pattern
+ - [Mediator Pattern](https://github.com/wliam06/design-patterns/tree/master/Behavioral%20Pattern/MediatorPattern)
  - Memento Pattern
  - [Observer Pattern](https://github.com/wliam06/design-patterns/tree/master/Behavioral%20Pattern/ObserverPattern)
  - [Strategy Pattern](https://github.com/wliam06/design-patterns/tree/master/Behavioral%20Pattern/StrategyPattern)
