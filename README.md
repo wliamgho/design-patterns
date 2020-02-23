@@ -25,14 +25,11 @@ There are several type of behavioral patterns are:
  - [Observer Pattern](https://github.com/wliam06/design-patterns/tree/master/Behavioral%20Pattern/ObserverPattern)
  - [Strategy Pattern](https://github.com/wliam06/design-patterns/tree/master/Behavioral%20Pattern/StrategyPattern)
 
-
 ## Structural Pattern
-These patterns are represent as mechanism of relationships between objects which objects are dependent. 
+These patterns are represent as mechanism of identifying a relationship between objects and entities. 
 
 There are several type of structural patterns are:
- - Composite Pattern
+ - [Composite Pattern](https://github.com/wliam06/design-patterns/tree/master/Structural%20Pattern/CompositePattern)
  - [Adapter Pattern](https://github.com/wliam06/design-patterns/tree/master/Structural%20Pattern/AdapterPattern)
  - [Facade Pattern](https://github.com/wliam06/design-patterns/tree/master/Structural%20Pattern/FacadePattern)
- - Extensibility Pattern
  - [Decorator Pattern](https://github.com/wliam06/design-patterns/tree/master/Structural%20Pattern/DecoratorPattern)
- - Aggregate Pattern
