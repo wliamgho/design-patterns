@@ -5,6 +5,15 @@ Design Pattern are divided into some fundamental groups as:
  - [Behavioral Pattern](https://github.com/wliam06/design-patterns/tree/master/Behavioral%20Pattern)
  - [Creational Pattern](https://github.com/wliam06/design-patterns/tree/master/Creational%20Pattern)
  - [Structural Pattern](https://github.com/wliam06/design-patterns/tree/master/Structural%20Pattern)
+ 
+ ## Behavioral Pattern
+ These patterns are represent as mechanism of communication between objects. With this pattern, increasing flexibility in carrying out of communcation.
+
+ There are several type of behavioral patterns are:
+  - [Mediator Pattern](https://github.com/wliam06/design-patterns/tree/master/Behavioral%20Pattern/MediatorPattern)
+  - [Memento Pattern](https://github.com/wliam06/design-patterns/tree/master/Behavioral%20Pattern/MementoPattern)
+  - [Observer Pattern](https://github.com/wliam06/design-patterns/tree/master/Behavioral%20Pattern/ObserverPattern)
+  - [Strategy Pattern](https://github.com/wliam06/design-patterns/tree/master/Behavioral%20Pattern/StrategyPattern)
 
 ## Creational Pattern
 These patterns are represent as mechanism of creating an objects. This pattern was created because of the problem in designing an object. With this pattern, they encapsulating knowledge which concrete classes are used and hide how instances of classes are created and combined.
@@ -15,15 +24,6 @@ There are 5 well-known of creational pattern:
  - [Prototype Pattern](https://github.com/wliam06/design-patterns/tree/master/Creational%20Pattern/PrototypePattern)  
  - [Factory Pattern](https://github.com/wliam06/design-patterns/tree/master/Creational%20Pattern/FactoryPattern)
  - [Singleton Pattern](https://github.com/wliam06/design-patterns/tree/master/Creational%20Pattern/SingletonPattern)
-
-## Behavioral Pattern
-These patterns are represent as mechanism of communication between objects. With this pattern, increasing flexibility in carrying out of communcation.
-
-There are several type of behavioral patterns are:
- - [Mediator Pattern](https://github.com/wliam06/design-patterns/tree/master/Behavioral%20Pattern/MediatorPattern)
- - [Memento Pattern](https://github.com/wliam06/design-patterns/tree/master/Behavioral%20Pattern/MementoPattern)
- - [Observer Pattern](https://github.com/wliam06/design-patterns/tree/master/Behavioral%20Pattern/ObserverPattern)
- - [Strategy Pattern](https://github.com/wliam06/design-patterns/tree/master/Behavioral%20Pattern/StrategyPattern)
 
 ## Structural Pattern
 These patterns are represent as mechanism of identifying a relationship between objects and entities. 
