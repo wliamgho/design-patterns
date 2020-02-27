@@ -1,6 +1,9 @@
 # Strategy Pattern
-
 Strategy pattern is a process from encapsulates algorithms in classes, making them reusable and interchangeable at runtime.
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/25744906/75458033-ca83b700-59af-11ea-80c3-e607d69f1379.png">
+</p>
 
 ### When we should use it:
  - Do the same thing with different ways.
