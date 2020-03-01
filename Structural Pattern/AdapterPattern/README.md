@@ -4,6 +4,10 @@ Adapter Pattern is used to provide a link between two otherwise incompatible typ
 
 In short, Adapter pattern represent as a `wrapper` between an object and transformed become the interface of object.
 
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/25744906/75619759-8ca2b080-5bb2-11ea-8f58-41bdef35c990.png">
+</p>
+
 When creating an `adapter`, there are several names likes:
   - Adaptee
   An object who needs some adaptation before it used by client. 
@@ -13,11 +17,6 @@ When creating an `adapter`, there are several names likes:
 
   - Target
   Represent as an interface who will be used by client.
-
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/25744906/74084525-8f722000-4aa2-11ea-924a-df004b778167.png">
-</p>
-
 
 ## When we need Adapter pattern?
 We can use the `Adapter` pattern when we have a deal with different interfaces with similar behavior likes recurring and reusable object-oriented.
